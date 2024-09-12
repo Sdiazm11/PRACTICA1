@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking de Películas en Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ranking de Películas en Streaming</h1>
+        <p>Actualizado diariamente</p>
+    </header>
+    <main>
+        <section id="ranking">
+            <h2>Ranking de Películas</h2>
+            <h3>Plataformas de Streaming</h3>
+            <div class="streaming-logos">
+                <img src="NETFLIX_LOGO.jpg" alt="Netflix">
+                <img src="PRIME_LOGO.jpg" alt="Prime Video">
+                <img src="D_LOGO.jpg" alt="Disney+">
+                <img src="MAX_LOGO.jpg" alt="Max">
+                <img src="APPLE_LOGO.jpg" alt="Apple TV+">
+            </div>
+            <!-- Barra de búsqueda -->
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Buscar películas...">
+            </div>
+            <!-- Mensaje cuando no se encuentran resultados -->
+            <p id="no-results" style="display: none;">No se encontraron resultados.</p>
+            <ul id="movie-list">
+                <!-- Las películas se llenarán aquí mediante JavaScript. -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Sitio de Películas. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
